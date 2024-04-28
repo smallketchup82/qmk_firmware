@@ -26,7 +26,7 @@ enum planck_layers {
 enum discord_keycodes {
 	DSC_MUTE = SAFE_RANGE,
 	DSC_DFN
-}
+};
 
 const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 	[_QWERTY] = LAYOUT_planck_grid(
