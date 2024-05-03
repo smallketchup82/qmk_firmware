@@ -17,9 +17,11 @@
 #pragma once
 
 // settings
-#define MK_KINETIC_SPEED
+#define AUDIO_INIT_DELAY
+#define MK_KINETIC_SPEED true
+#define MOUSEKEY_INITIAL_SPEED 20
 #define TAPPING_TOGGLE 2
 
 #ifdef AUDIO_ENABLE
-#   define STARTUP_SONG SONG(PLANCK_SOUND)
+#    define STARTUP_SONG SONG(PLANCK_SOUND)
 #endif
