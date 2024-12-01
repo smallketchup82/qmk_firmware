@@ -1,3 +1,4 @@
 AUDIO_ENABLE = yes
 MOUSEKEY_ENABLE = yes
 RGBLIGHT_ENABLE = yes
+DEBOUNCE_TYPE = asym_eager_defer_pk

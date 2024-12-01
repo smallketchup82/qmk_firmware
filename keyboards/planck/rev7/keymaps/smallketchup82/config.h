@@ -22,6 +22,8 @@
 #define MOUSEKEY_INITIAL_SPEED 20
 #define TAPPING_TOGGLE 2
 
+#define DEBOUNCE 8
+
 #ifdef AUDIO_ENABLE
 #    define STARTUP_SONG SONG(PLANCK_SOUND)
 #endif
